@@ -15,7 +15,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
     devServer: {
-        static: './',
+        static: path.resolve(__dirname, 'public'),
         hot: true,
     },
 
